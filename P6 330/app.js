@@ -83,8 +83,14 @@ if (form.uname.value == "RickyRocks" && form.psw.value == "whataguy")
   }
 }
 
-function Add_Comment()
+function Add_Comment_Chuck()
 {
-	prompt("Comment");
-	var Commented = new Boolean(true);
+	prompt("Comment:");
+	var CommentChuck = new Boolean(true);
+}
+
+function Add_Comment_Ricky()
+{
+	prompt("Comment:");
+	var CommentRicky = new Boolean(true);
 }
