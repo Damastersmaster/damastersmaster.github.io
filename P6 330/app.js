@@ -83,6 +83,18 @@ if (form.uname.value == "RickyRocks" && form.psw.value == "whataguy")
   }
 }
 
+function Share_Ricky()
+{
+	prompt("Who do you want to share with?");
+	var SharedwithChuck = new Boolean(true);
+}
+
+function Share_Chuck()
+{
+	prompt("Who do you want to share with?");
+	var ShardwithRicky = new Boolean(true);
+}
+
 function Add_Comment_Chuck()
 {
 	prompt("Comment:");
