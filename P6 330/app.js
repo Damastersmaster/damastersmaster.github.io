@@ -83,6 +83,11 @@ if (form.uname.value == "RickyRocks" && form.psw.value == "whataguy")
   }
 }
 
+function Notifications()
+{
+	$element.toggle(shouldElementbeVisible);
+}
+
 function Share_Ricky()
 {
 	prompt("Who do you want to share with?");
