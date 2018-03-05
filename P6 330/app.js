@@ -82,3 +82,9 @@ if (form.uname.value == "RickyRocks" && form.psw.value == "whataguy")
    alert("Error Password or Username");
   }
 }
+
+function Add_Comment()
+{
+	prompt("Comment");
+	var Commented = new Boolean(true);
+}

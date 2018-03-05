@@ -14,11 +14,11 @@ body {
   align-items: center;
 }
 
-.header li
-{
-  padding:20px;
+.header li{
+  padding:30px;
   display:inline;
 }
+
 .header_h1 {
   margin: 20px;
   padding: 10px;
@@ -30,19 +30,24 @@ body {
   width:150px;
   height:150px;
 }
+
 .student_icon img {
   padding-top:50px;
   width:100px;
   height:100px;
   padding-left:50px;
 }
+
 .background-ribbon {
   height: 200px;
+  padding-left: 1200px;
+  margin-top: 50px;
+  display: inline-block;
 }
 
 .text-editor {
   width: 60%;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-right: 28px;
   padding-bottom: 60px;
   padding-left: 28px;
@@ -50,6 +55,4 @@ body {
   background: #fff;
   margin: 0 auto;
   transform: translateY(-150px);
-
-
 }
