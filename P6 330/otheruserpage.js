@@ -34,17 +34,21 @@ if(form.nbname.value == "Psych 201")
 
 function check2(form)
 {
-if(form.nbname.value == "EECS 212")
-  {
-    window.open('otheruser2.html');
-  }
+ if(form.nbname.value == "EECS 212")
+ {
+   window.open('otheruser2.html');
+ }
  else
  {
    alert("Not an Acceptable Notebook Name");
-  }
+ }
 }
 
-function Notifications(shouldElementsbeVisible)
-{
-	$element.toggle(shouldElementbeVisible);
+function Notifications(shouldElementsbeVisible) {
+  if(shouldElementBeVisible) {
+    $element.show();
+  }
+  else {
+    $element.hide();
+  }  
 }

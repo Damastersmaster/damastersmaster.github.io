@@ -37,8 +37,12 @@ body {
   height:100px;
   padding-left:50px;
 }
+
 .background-ribbon {
   height: 200px;
+  padding-left: 1200px;
+  margin-top: 50px;
+  display: inline-block;
 }
 
 .text-editor {
@@ -51,6 +55,4 @@ body {
   background: #fff;
   margin: 0 auto;
   transform: translateY(-150px);
-
-  
 }
