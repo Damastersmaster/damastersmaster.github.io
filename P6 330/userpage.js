@@ -42,5 +42,4 @@ if(form.nbname.value == "CSD 318")
  {
    alert("Not an Acceptable Notebook Name")
   }
-
 }
