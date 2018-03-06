@@ -32,15 +32,23 @@ if(form.nbname.value == "Math 230")
 
 }
 
-function check2(form)
-{
-if(form.nbname.value == "CSD 318")
-  {
+function check2(form) {
+  if(form.nbname.value == "CSD 318") {
     window.open('userpage2.html')
   }
- else
- {
+  else {
    alert("Not an Acceptable Notebook Name")
   }
+}
 
+
+
+function Notifications(shouldElementsbeVisible, element) {
+alert("Function called");
+  if(shouldElementBeVisible) {
+    element.show();
+  }
+  else {
+    element.hide();
+  }
 }

@@ -88,7 +88,7 @@ function Notifications()
 	$element.toggle(shouldElementbeVisible);
 }
 
-var SharedwithChuck = new Boolean(false);
+var SharedwithChuck = Boolean(false);
 
 function Share_Ricky()
 {
@@ -96,19 +96,23 @@ function Share_Ricky()
 	SharedwithChuck = true;
 }
 
+var SharedwithRicky = Boolean(false);
+
 function Share_Chuck()
 {
 	prompt("Who do you want to share with?");
-	var SharedwithRicky = new Boolean(true);
+	var SharedwithRicky = true;
 }
+
+var CommentChuck = Boolean(false);
 
 function Add_Comment_Chuck()
 {
 	prompt("Comment:");
-	var CommentChuck = new Boolean(true);
+	CommentChuck = true;
 }
 
-var CommentRicky = new Boolean(false);
+var CommentRicky = Boolean(false);
 
 function Add_Comment_Ricky()
 {
