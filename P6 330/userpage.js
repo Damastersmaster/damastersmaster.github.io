@@ -41,8 +41,6 @@ function check2(form) {
   }
 }
 
-
-
 function Notifications() {
   element = document.getElementById("SharedwithRicky");
   if(localStorage.getItem("SharedwithRicky")) {

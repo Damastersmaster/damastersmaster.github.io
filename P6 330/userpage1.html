@@ -3,7 +3,7 @@
         <title>My Home Page</title>
         <link rel="stylesheet" type="text/css" href="userpage.css"/>
     </head>
-      <body>
+      <body onload="Notifications()">
         <div id = "entire-container">
           <div id="mySidenav" class="sidenav">
             <a href="userpage1.html"><img class="avatar" src="cnote.png" alt="logo"></a>
@@ -88,14 +88,13 @@
           <div id="myNotifcations" class="sidenote">
             <a href="personal.html"><img class="avatar" src="Account.png" alt="logo"></a>
             <h1>Notifications</h1>
-            <div id="Notifications" onload="Notifications(SharedwithRicky)"> Chuck has shared a notebook with you! </div>
+            <div id="Notifications"> Chuck has shared a notebook with you! </div>
             <div id="Notifications"> You have shared a notebook with Chuck! </div>
             <div id="Notifications"> Chuck commented on a shared notebook! </div>
             <div id="Notifications"> You commented on a shared notebook! </div>
           </div>
         </div>
+        <script src="userpage.js"></script>
+        <script src="app.js"></script>
       </body>
-<script src="userpage.js">
-
-</script>
 </html>

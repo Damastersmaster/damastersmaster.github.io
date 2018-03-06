@@ -89,6 +89,7 @@ function Share_Ricky()
 {
 	prompt("Who do you want to share with?");
 	SharedwithChuck = true;
+	localStorage.setItem("SharedwithChuck", SharedwithChuck);
 }
 
 var SharedwithRicky = Boolean(false);
@@ -106,6 +107,7 @@ function Add_Comment_Chuck()
 {
 	prompt("Comment:");
 	CommentChuck = true;
+	localStorage.setItem("CommentChuck", CommentChuck);
 }
 
 var CommentRicky = Boolean(false);
@@ -114,4 +116,5 @@ function Add_Comment_Ricky()
 {
 	prompt("Comment:");
 	CommentRicky = true;
+	localStorage.setItem("CommentChuck", CommentRicky);
 }
