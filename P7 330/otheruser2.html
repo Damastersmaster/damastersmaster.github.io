@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>My Home Page</title>
+        <link rel="stylesheet" type="text/css" href="otheruser.css"/>
+    </head>
+      <body>  
+        <div id = "entire-container">
+          <div id="mySidenav" class="sidenav">
+            <a href="oruser.html"><img class="avatar" src="cnote.png" alt="logo"></a>
+          </div>
+
+            <div id="id00" class="modal">
+              
+              <form class="modal-content animate">
+                <div class="imgcontainer">
+                  <span onclick="document.getElementById('id00').style.display='none'" class="close" title="Close Modal">&times;</span>
+                </div>
+
+                <div class="container">
+                  <label for="class_name"><b>Notebook Name</b></label>
+                  <input type="text" placeholder="Ex. Math 230" name="nbname" required>       
+                </div>
+                  <div class="container">
+                  <button onclick="check2(this.form)" class="submitbtn">Submit</button>
+                </div>
+
+              </form>
+            </div>
+
+          <div id="main" class="dash">
+            <h2>Dashboard</h2>
+                        
+              <div class="contain2">
+                   <a href="othereditor1.html"><img id ="n0" class="avatar" src="notebook201.png" alt="notebook 1"></a>
+              </div>
+              <div class="contain3">
+                <a href="othereditor2.html"><img id ="n1" class="avatar" src="notebook212.png" alt="notebook 2"></a>
+              </div>
+              <div class="contain">
+                      <img button onclick="document.getElementById('id00').style.display='block'"" style="width:auto;" id ="n0" class="avatar" src="add.png" alt="logo">
+                       <div button onclick="document.getElementById('id00').style.display='block'"" style="width:auto;" class="overlay">
+                       <div class="text">Create a Notebook</div>
+                      </div>
+              </div>
+              <div class="contain">
+                      <img id ="n3" class="avatar" src="add.png" alt="logo">
+              </div>
+              <div class="contain2">
+                      <img id ="n4" class="avatar" src="add.png" alt="logo">
+              </div>
+              <div class="contain3">
+                     <img id = "n5" src="add.png" class="avatar" alt="Add a NoteBook">
+              </div>
+
+          </div>
+
+          <div id="myNotifcations" class="sidenote">
+            <div id ="setContainer"> 
+              <img class="avatar1" src="gear.png" alt="settings">
+              <a class = "avatar2" href="index.html">Sign Out</a>
+              <a href="personal2.html"><img class="avatar3" src="Account.png" alt="logo"></a>
+            </div>
+            <div id = "notecore" class="note">
+            <h3>Notifications</h3>
+            <p> notes!</p>
+            <p> note!</p>
+            <p> Im tired </p>
+            </div>
+          </div>
+        </div>
+      </body>
+<script src="otheruserpage.js">
+
+</script>
+</html>
