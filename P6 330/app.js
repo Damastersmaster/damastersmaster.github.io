@@ -67,7 +67,7 @@ function changeB2()
 
 }
 
-function check(form)
+function login(form)
 {
 if (form.uname.value == "RickyRocks" && form.psw.value == "whataguy")
   {
@@ -96,7 +96,8 @@ var SharedwithRicky = Boolean(false);
 function Share_Chuck()
 {
 	prompt("Who do you want to share with?");
-	var SharedwithRicky = true;
+	SharedwithRicky = true;
+	localStorage.setItem("SharedwithRicky", SharedwithRicky);
 }
 
 var CommentChuck = Boolean(false);

@@ -43,9 +43,30 @@ function check2(form) {
 
 
 
-function Notifications(ShouldElementsBeVisible, element) {
-alert("Function called");
-  if(ShouldElementsBeVisible) {
+function Notifications() {
+  element = document.getElementById("SharedwithRicky");
+  if(localStorage.getItem("SharedwithRicky")) {
+    element.style.display= "block";
+  }
+  else {
+    element.style.display= "none";
+  }
+  element = document.getElementById("SharedwithChuck");
+  if(SharedwithChuck) {
+    element.style.display= "block";
+  }
+  else {
+    element.style.display= "none";
+  }
+  element = document.getElementById("CommentChuck");
+  if(CommentChuck) {
+    element.style.display= "block";
+  }
+  else {
+    element.style.display= "none";
+  }
+  element = document.getElementById("CommentRicky");
+  if(CommentRicky) {
     element.style.display= "block";
   }
   else {
