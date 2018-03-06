@@ -43,12 +43,12 @@ function check2(form) {
 
 
 
-function Notifications(shouldElementsbeVisible, element) {
+function Notifications(ShouldElementsBeVisible, element) {
 alert("Function called");
-  if(shouldElementBeVisible) {
-    element.show();
+  if(ShouldElementsBeVisible) {
+    element.style.display= "block";
   }
   else {
-    element.hide();
+    element.style.display= "none";
   }
 }
