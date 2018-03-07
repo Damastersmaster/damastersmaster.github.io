@@ -3,14 +3,14 @@
         <title>My Home Page</title>
         <link rel="stylesheet" type="text/css" href="otheruser.css"/>
     </head>
-      <body>  
+      <body onload="Notifications()">
         <div id = "entire-container">
           <div id="mySidenav" class="sidenav">
             <a href="oruser.html"><img class="avatar" src="cnote.png" alt="logo"></a>
           </div>
 
             <div id="id00" class="modal">
-              
+
               <form class="modal-content animate">
                 <div class="imgcontainer">
                   <span onclick="document.getElementById('id00').style.display='none'" class="close" title="Close Modal">&times;</span>
@@ -18,7 +18,7 @@
 
                 <div class="container">
                   <label for="class_name"><b>Notebook Name</b></label>
-                  <input type="text" placeholder="Ex. Math 230" name="nbname" required>       
+                  <input type="text" placeholder="Ex. Math 230" name="nbname" required>
                 </div>
                   <div class="container">
                   <button onclick="check2(this.form)" class="submitbtn">Submit</button>
@@ -29,7 +29,7 @@
 
           <div id="main" class="dash">
             <h2>Dashboard</h2>
-                        
+
               <div class="contain2">
                    <a href="othereditor1.html"><img id ="n0" class="avatar" src="notebook201.png" alt="notebook 1"></a>
               </div>
@@ -55,21 +55,21 @@
           </div>
 
           <div id="myNotifcations" class="sidenote">
-            <div id ="setContainer"> 
+            <div id ="setContainer">
               <img class="avatar1" src="gear.png" alt="settings">
               <a class = "avatar2" href="index.html">Sign Out</a>
               <a href="personal2.html"><img class="avatar3" src="Account.png" alt="logo"></a>
             </div>
             <div id = "notecore" class="note">
             <h3>Notifications</h3>
-            <p> notes!</p>
-            <p> note!</p>
-            <p> Im tired </p>
+            <div id="SharedwithChuck"> Ricky has shared a notebook <br>with you! </div>
+            <div id="SharedwithChuck"> You have shared a notebook <br>with Ricky! </div>
+            <div id="CommentRicky"> Ricky commented on a shared <br>notebook! </div>
+            <div id="CommentChuck"> You commented on a shared <br>notebook! </div>
             </div>
           </div>
         </div>
+        <script src="otheruserpage.js"></script>
+        <script src="app.js"></script>
       </body>
-<script src="otheruserpage.js">
-
-</script>
 </html>
