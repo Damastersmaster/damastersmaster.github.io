@@ -57,12 +57,11 @@ margin:0px;
     height:100%;
 }
 .dash img{
-    height:240px;
-    width:240px;
+    height:20px;
+    width:20px;
 }
 
 .infoBox{
-  margin-top: 8%;
   background-color: gray;
   height: 30%;
   border: 2px solid #000000;
@@ -80,10 +79,13 @@ margin:0px;
 }
 
 .Personal-Information{
-  padding-left: 10px;
+  padding-left: 15px;
   font-size: 16pt;
 }
-
+.Personal-Information h2{
+  margin-bottom:0px;
+  margin-top:5px;
+}
 .infoBox-subtext{
   font-style: italic;
   font-size: 12pt;
