@@ -87,7 +87,7 @@ margin:8px;
   height:70px;
 }
 .avatar1{float:left;}
-.avatar2{float:left;border:3px solid black;margin-top:15px;}
+.avatar2{border:3px solid black;margin-top:15px; border-radius:20%;}
 .avatar3{float:left;}
 #myNotifications
 {
