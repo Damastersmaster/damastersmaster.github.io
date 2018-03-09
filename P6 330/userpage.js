@@ -29,14 +29,16 @@ if(form.nbname.value == "Math 230")
  {
    alert("Not an Acceptable Notebook Name")
   }
-
 }
 
-function check2(form) {
-  if(form.nbname.value == "CSD 318") {
+function check2(form)
+{
+if(form.nbname.value == "CSD 318")
+  {
     window.open('userpage2.html')
   }
-  else {
+ else
+ {
    alert("Not an Acceptable Notebook Name")
   }
 }

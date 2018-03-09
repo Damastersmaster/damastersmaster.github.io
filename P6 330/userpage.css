@@ -2,7 +2,51 @@ body {
     font-family: Arial, sans-serif;
     background-color:aqua;
 }
+.contain {
+  position: relative;
+  width: 270px;
+  height: 270px;
+  margin:0;
+}
+.dash img{
+    height:270px;
+    width:270px;
+}
 
+button:hover {
+    opacity: 0.8;
+}
+
+.overlay {
+  padding:15px;
+  position: absolute;
+  border-radius:100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 270px;
+  width: 270px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: green;
+}
+
+.contain:hover .overlay {
+  opacity: .8;
+}
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
@@ -11,11 +55,17 @@ input[type=text] {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+h2{
+	font-size: 24pt;
+	padding-bottom: 5px;
+	border-bottom: 5px solid black;
+}
 #entire-container{
     width:100%;
 }
 #mySidenav
 {
+  padding:0;
     float:left;
     width:10%;
 }
@@ -23,45 +73,50 @@ input[type=text] {
 .sidenav {
     height: 100%;
 }
-.sidenav button {
-   background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
 
-.sidenav a:hover {
-    color: #f1f1f1;
-}
 .sidenav img{
 padding:0px;
 margin:0px;
   width:120px;
   height:120px;
 }
+#setContainer img{
+padding:0px;
+margin:8px;
+  width:70px;
+  height:70px;
+}
+.avatar1{float:left;}
+.avatar2{border:3px solid black;margin-top:15px; border-radius:20%;}
+.avatar3{float:left;}
 #myNotifications
 {
-    float:left;
     width:20%;
 }
 
 .sidenote {
-     height: 100%;
-    top: 0;
-    left: 0;
+  float:left;
+    height: 100%;
+
 }
+
+.contain{float:left;padding:15px;}
+.contain2{float:left;padding:15px;}
+.contain3{float:left;padding:15px;}
 .sidenote a {
-    padding: 8px 8px 8px 32px;
+    padding: 4px 4px 4px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #818181;
-    display: block;
+}
+#notecore{
+  margin-top:100px;
+}
+#notecore h3
+{
+  border-bottom:3px solid black;
 }
 .sidenote img{
-   padding-left:150px;
     height:100px;
     width:100px;
 }
@@ -73,15 +128,7 @@ margin:0px;
 {
     height:100%;
 }
-.dash img{
-    padding: 30px;
-    height:270px;
-    width:270px;
-}
 
-button:hover {
-    opacity: 0.8;
-}
 
 span.psw {
     float: right;
@@ -108,7 +155,7 @@ span.psw {
     background-color: #fefefe;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 400px; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button (x) */

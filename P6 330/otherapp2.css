@@ -14,23 +14,24 @@ body {
   align-items: center;
 }
 
-.header li
-{
+.header li {
   margin:20px;
   padding:20px;
   display:inline;
 }
+
 .header_h1 {
   margin: 20px;
   padding: 10px;
   color: #424242;
 }
 
-.header_h1 img{
+.header_h1 img {
   padding-top:50px;
   width:150px;
   height:150px;
 }
+
 .student_icon img {
   padding-top:50px;
   width:100px;
