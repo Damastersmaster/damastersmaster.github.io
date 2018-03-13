@@ -45,13 +45,15 @@ if(form.nbname.value == "EECS 212")
 
 function Notifications() {
   element = document.getElementById("SharedwithRicky");
-  if(localStorage.getItem("SharedwithRicky")) {
+  SharedwithRicky = localStorage.getItem("SharedwithRicky");
+  if(SharedwithRicky) {
     element.style.display= "block";
   }
   else {
     element.style.display= "none";
   }
   element = document.getElementById("SharedwithChuck");
+  SharedwithChuck = localStorage.getItem("SharedwithChuck");
   if(SharedwithChuck) {
     element.style.display= "block";
   }
@@ -59,6 +61,7 @@ function Notifications() {
     element.style.display= "none";
   }
   element = document.getElementById("CommentChuck");
+  CommentChuck = localStorage.getItem("CommentChuck");
   if(CommentChuck) {
     element.style.display= "block";
   }
@@ -66,6 +69,7 @@ function Notifications() {
     element.style.display= "none";
   }
   element = document.getElementById("CommentRicky");
+  CommentRicky = localStorage.getItem("CommentRicky");
   if(CommentRicky) {
     element.style.display= "block";
   }
