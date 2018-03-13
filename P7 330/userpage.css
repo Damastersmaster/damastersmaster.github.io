@@ -2,6 +2,39 @@ body {
     font-family: Arial, sans-serif;
     background-color:aqua;
 }
+#overdash
+{
+  margin-top:15px;
+}
+#left
+{
+  float:left;
+  width:8%;
+}
+#center
+{
+  float:left;
+
+  width:72%;
+}
+#right
+{
+  float:left;
+width:20%;
+}
+
+#left img {
+  margin-left:5px;
+  width:90px;
+  height:90px;
+  
+}
+#right img
+{
+  width:90px;
+  height:90px;
+  
+}
 .contain {
   position: relative;
   width: 270px;
@@ -55,12 +88,8 @@ input[type=text] {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-h2{
-	font-size: 24pt;
-	padding-bottom: 5px;
-	border-bottom: 5px solid black;
-}
 #entire-container{
+    padding-top:90px;
     width:100%;
 }
 #mySidenav
@@ -115,7 +144,7 @@ margin:8px;
   margin-top:0px;
   width:20%;
 }
-#notecore h3
+#notecore h2
 {
   border-bottom:3px solid black;
 }
@@ -212,17 +241,14 @@ span.psw {
 }
 .dropbtn {
     color: white;
-    padding: 16px;
-    font-size: 16px;
     border: none;
     cursor: pointer;
 }
 
 
 .dropdown {
-    position: relative;
-    display: inline-block;
     float:right;
+    margin-right:40px;
 }
 
 .dropdown-content {

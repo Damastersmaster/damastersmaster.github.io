@@ -4,9 +4,24 @@
         <link rel="stylesheet" type="text/css" href="userpage.css"/>
     </head>
       <body onload="Notifications()">
+        <div id = "overdash" class = "overdash">
+            <div id = "left" ><a href="oruser.html"><img class="avatar" src="cnote.png" alt="logo"></a> </div>
+           <div id = "center"><h1>Dashboard<h1></div>
+            <div id = "right">
+            <div class = "dropdown">
+              <img onclick="myFunction()" class="dropbtn" src="Account.png" alt="user">
+                  <div id="myDropdown" class ="dropdown-content">
+                   <a href="#">Settings</a>
+                    <a href="personal.html">About Me</a>
+                    <a href="index.html">Sign Out</a>
+                  </div>
+            </div>
+          </div>
+
+        </div>
         <div id = "entire-container">
           <div id="mySidenav" class="sidenav">
-            <a href="oruser.html"><img class="avatar" src="cnote.png" alt="logo"></a>
+           
           </div>
 
             <div id="id00" class="modal">
@@ -28,19 +43,19 @@
             </div>
 
           <div id="main" class="dash">
-            <h2>Dashboard</h2>
-        			<div class="contain">
-                   		<img button onclick="document.getElementById('id00').style.display='block'"" style="width:auto;" id ="n0" class="avatar" src="add.png" alt="logo">
-        			         <div button onclick="document.getElementById('id00').style.display='block'"" style="width:auto;" class="overlay">
-        						   <div class="text">Create a Notebook</div>
-        						  </div>
-        			</div>
+           
+              <div class="contain">
+                      <img button onclick="document.getElementById('id00').style.display='block'"" style="width:auto;" id ="n0" class="avatar" src="add.png" alt="logo">
+                       <div button onclick="document.getElementById('id00').style.display='block'"" style="width:auto;" class="overlay">
+                       <div class="text">Create a Notebook</div>
+                      </div>
+              </div>
               <div class="contain2">
                       <img id ="n1" class="avatar" src="add.png" alt="logo">
               </div>
-			        <div class="contain3">
-			               <img id = "n2" src="add.png" class="avatar" alt="Add a NoteBook">
-			        </div>
+              <div class="contain3">
+                     <img id = "n2" src="add.png" class="avatar" alt="Add a NoteBook">
+              </div>
               <div class="contain">
                       <img id ="n3" class="avatar" src="add.png" alt="logo">
               </div>
@@ -54,22 +69,15 @@
           </div>
 
           <div id="myNotifcations" class="sidenote">
-   <div class = "dropdown">
-              <img onclick="myFunction()" class="dropbtn" src="Account.png" alt="user">
-              <div id="myDropdown" class ="dropdown-content">
-               <a href="#">Settings</a>
-                <a href="personal.html">About Me</a>
-                <a href="index.html">Sign Out</a>
-              </div>
+               
+                  <div id = "notecore" class="note">
+                  <h2>Notifications</h2>
+                  <div id="SharedwithRicky" > Chuck has shared a notebook <br>with you! </div>
+                  <div id="SharedwithChuck"> You have shared a notebook <br>with Chuck! </div>
+                  <div id="CommentChuck"> Chuck commented on a shared <br>notebook! </div>
+                  <div id="CommentRicky"> You commented on a shared <br>notebook! </div>
+                  </div>
             </div>
-            <div id = "notecore" class="note">
-            <h3>Notifications</h3>
-            <div id="SharedwithRicky" > Chuck has shared a notebook <br>with you! </div>
-            <div id="SharedwithChuck"> You have shared a notebook <br>with Chuck! </div>
-            <div id="CommentChuck"> Chuck commented on a shared <br>notebook! </div>
-            <div id="CommentRicky"> You commented on a shared <br>notebook! </div>
-            </div>
-          </div>
         </div>
         <script src="userpage.js"></script>
         <script src="app.js"></script>
