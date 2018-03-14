@@ -2,7 +2,7 @@ var backgroundColorCount = 0;
 function changeB()
 {
 	backgroundColorCount = backgroundColorCount +1;
-	if(backgroundColorCount > 5)
+	if(backgroundColorCount > 3)
 	{
 		backgroundColorCount = 0;
 	}
@@ -29,7 +29,7 @@ var backgroundColorCount2 = 1;
 function changeB2()
 {
 	backgroundColorCount2 = backgroundColorCount2 +1;
-	if(backgroundColorCount2 > 5)
+	if(backgroundColorCount2 > 3)
 	{
 		backgroundColorCount2 = 0;
 	}
