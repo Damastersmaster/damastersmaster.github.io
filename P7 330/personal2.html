@@ -5,20 +5,33 @@
         <link rel="stylesheet" type="text/css" href="personal2.css"/>
     </head>
       <body>
+      	<div id = "overdash" class = "overdash">
+            <div id = "left" ><a href="javascript:history.back()"><img class="avatar" src="cnote.png" alt="logo"></a> </div>
+           <div id = "center"><h1>My Account Info<h1></div>
+            <div id = "right">
+            <div class = "dropdown">
+              <img onclick="myFunction()" class="dropbtn" src="Account.png" alt="user">
+                  <div id="myDropdown" class ="dropdown-content">
+                   <a href="javascript:history.back()">Dashboard</a>
+                    <a href="personal.html">About Me</a>
+                    <a href="index.html">Sign Out</a>
+                  </div>
+            </div>
+          </div>
         <div id = "entire-container">
           <div id="mySidenav" class="sidenav">
-            <a href="javascript:history.back()"><img class="avatar" src="cnote.png" alt="logo"></a>
+           
           </div>
           <div id="main" class="dash">
-            <h2>User Profile</h2>
             <div class="infobox">
               <div class="Personal-Information">
-                <h2> Personal Information </h2>
+              	<h2> Personal Information <img src="edit.png" alt="edit"></h2>
+              	
                 <div>
-                Name: Chuck B.
+                Name: Chuck Bartowski
               </div>
                   <div>
-                Email: ChuckBuymore@stanford.edu
+                Email: ChuckBartowski@stanford.edu
               </div>
                   <div>
                 School: Stanford University
@@ -27,13 +40,14 @@
                 Date Joined: 8/8/17
               </div>
                   <div>
-                Date of Birth: 12/25/00
+                Date of Birth: 07/11/89
               </div>
               </div>
             </div>
             <div class="infoBox2">
               <div class="Personal-Information">
-                <h2> Security Questions </h2>
+                <h2> Security Questions <img src="edit.png" alt="edit"></h2>
+                
                 <div class="infoBox-subtext"> *Answers are hidden for security reasons</div>
                 <div>
                 Question 1: What was the name of your first pet?
@@ -57,10 +71,9 @@
             </div>
           </div>
           <div id="myNotifcations" class="sidenote">
-            <a href="personal2.html"><img class="avatar" src="Account.png" alt="logo"></a>
-          </div>
+                     </div>
         </div>
       </body>
-
+<script src = "userpage.js">
 </script>
 </html>
