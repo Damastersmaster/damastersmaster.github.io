@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color:tan;
+    background-color:#98A1A7;
 }
 #overdash
 {
@@ -93,7 +93,7 @@ margin:0px;
 }
 
 .infoBox{
-  background-color: gray;
+  background-color: #B1E5F2;
   height: 30%;
   border: 2px solid #000000;
   line-height: 220%;
@@ -102,7 +102,7 @@ margin:0px;
 
 .infoBox2{
   margin-top: 8%;
-  background-color: gray;
+  background-color: #B1E5F2;
   height: 40%;
   border: 2px solid #000000;
   line-height: 220%;
