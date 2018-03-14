@@ -8,19 +8,19 @@ function changeB()
 	}
 	if (backgroundColorCount == 0)
 	{
-		document.body.style.backgroundColor = "#FA9A50";
+		document.body.style.backgroundColor = "#98A1A7";
 	}
 	if(backgroundColorCount == 1)
 	{
-		document.body.style.backgroundColor = "lightgreen";
+		document.body.style.backgroundColor = "#C8C8C8";
 	}
 	if(backgroundColorCount == 2)
 	{
-		document.body.style.backgroundColor = "hotpink";
+		document.body.style.backgroundColor = "#BBB891";
 	}
 	if(backgroundColorCount == 3)
 	{
-		document.body.style.backgroundColor = "purple";
+		document.body.style.backgroundColor = "#242325";
 	}
 	if(backgroundColorCount == 4)
 	{
@@ -42,19 +42,19 @@ function changeB2()
 	}
 	if (backgroundColorCount2 == 0)
 	{
-		document.body.style.backgroundColor = "#FA9A50";
+		document.body.style.backgroundColor = "#87959D";
 	}
 	if(backgroundColorCount2 == 1)
 	{
-		document.body.style.backgroundColor = "lightgreen";
+		document.body.style.backgroundColor = "#E8E9F3";
 	}
 	if(backgroundColorCount2 == 2)
 	{
-		document.body.style.backgroundColor = "hotpink";
+		document.body.style.backgroundColor = "#CECECE";
 	}
 	if(backgroundColorCount2 == 3)
 	{
-		document.body.style.backgroundColor = "purple";
+		document.body.style.backgroundColor = "#272635";
 	}
 	if(backgroundColorCount == 4)
 	{
