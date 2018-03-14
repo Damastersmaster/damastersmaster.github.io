@@ -60,6 +60,10 @@ button {
   height: 35px;
 }
 
+#Add_Comment {
+  background-color: #008CBA;
+}
+
 .background-ribbon {
   height: 200px;
   display: inline-block;
