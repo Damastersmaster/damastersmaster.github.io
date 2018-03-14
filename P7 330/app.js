@@ -22,14 +22,7 @@ function changeB()
 	{
 		document.body.style.backgroundColor = "#242325";
 	}
-	if(backgroundColorCount == 4)
-	{
-		document.body.style.backgroundColor = "green";
-	}
-	if(backgroundColorCount == 5)
-	{
-		document.body.style.backgroundColor = "brown";
-	}
+
 
 }
 var backgroundColorCount2 = 1;
@@ -56,14 +49,7 @@ function changeB2()
 	{
 		document.body.style.backgroundColor = "#272635";
 	}
-	if(backgroundColorCount == 4)
-	{
-		document.body.style.backgroundColor = "green";
-	}
-	if(backgroundColorCount2 == 5)
-	{
-		document.body.style.backgroundColor = "brown";
-	}
+
 
 }
 
