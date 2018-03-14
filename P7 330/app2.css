@@ -7,41 +7,53 @@ body {
   padding: 0;
   background-color:lightgreen;
 }
+#overdash
+{
+  margin-top:15px;
+}
+#left
+{
+  float:left;
+  width:20%;
+}
+#center
+{
+  float:left;
+  width:60%;
+}
+#right
+{
+  float:left;
+width:20%;
+}
 
-.header {
+#left img {
+  margin-left:25px;
+  width:120px;
+  height:120px;
+  
+}
+#right img
+{
+  width:100px;
+  height:100px;
+}
+#center {
   height: 80px;
   display: flex;
   align-items: center;
 }
 
-.header li {
+#center li {
+  display:flex;
+  align-items:center;
   padding:20px;
   display:inline;
 }
 
-.header_h1 {
-  margin: 20px;
-  padding: 10px;
-  color: #424242;
-}
-
-.header_h1 img{
-  padding-top:50px;
-  width:150px;
-  height:150px;
-}
-
-.student_icon img {
-  padding-top:50px;
-  width:100px;
-  height:100px;
-  padding-left:50px;
-}
 
 .background-ribbon {
   height: 200px;
-  padding-left: 1200px;
-  margin-top: 50px;
   display: inline-block;
 }
 
@@ -56,3 +68,39 @@ body {
   margin: 0 auto;
   transform: translateY(-150px);
 }
+
+.dropbtn {
+    margin-right:40px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown {
+    float:right;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 130px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+
+.show {display:block;}

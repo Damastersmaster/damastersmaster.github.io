@@ -4,33 +4,41 @@
     <title>Online Collaborative Text Editor</title>
     <link href="app2.css" rel="stylesheet"></link>
   </head>
-  <body>
-    <header class="header">
-      <h1 class="header_h1"><a href="javascript:history.back()"><img src="cnote.png" alt="cnote"></a></h1>
-      <ul>
+       <div id = "overdash" class = "overdash">
+            <div id = "left" ><a href="javascript:history.back()"><img class="avatar" src="cnote.png" alt="logo"></a> </div>
+           <div id = "center"> 
         <li> <button id = "Font">Font </button> </li>
-      	<li> <button id = "Bold">Bold</button></li>
-      	<li> <button id = "Ital">Italicize</button></li>
-      	<li> <button id = "Underline">Underline</button></li>
-      	<li> <button id = "Highlight">Highlight</button></li>
-      	<li> <button id = "Bullet Points">Bullet Points</button></li>
-      	<li> <button id = "Background Button" onclick="changeB2()">Background</button></li>
+        <li> <button id = "Bold">Bold</button></li>
+        <li> <button id = "Ital">Italicize</button></li>
+        <li> <button id = "Underline">Underline</button></li>
+        <li> <button id = "Highlight">Highlight</button></li>
+        <li> <button id = "Bullet Points">Bullet Points</button></li>
+        <li> <button id = "Background Button" onclick="changeB()">Background</button></li>
+         <li><button id = "Add_Comment" onclick="Add_Comment_Ricky()">Add Comment</button></li>
         <li> <button id = "Share Notebook" onclick="Share_Ricky()">Share</button></li>
-      </ul>
-
-      <h2 class = "student_icon"><a href="personal.html"><img src="Account.png" alt = "account"></a></h2>
-    </header>
+    </div>
+            <div id = "right">
+            <div class = "dropdown">
+              <img onclick="myFunction()" class="dropbtn" src="Account.png" alt="user">
+                  <div id="myDropdown" class ="dropdown-content">   
+                    <a href="#">Settings</a>
+                    <a href="javascript:history.back()">Dashboard</a>
+                    <a href="index.html">Sign Out</a>
+                  </div>
+            </div>
+          </div>
     <div class="doc">
 
       <div class="background-ribbon">
-        <button id = "Add_Comment" onclick="Add_Comment_Ricky()">Add Comment</button>
+        
       </div>
 
       <div class="text-editor"><h2 class="class-topic">CSD 318</h2>
-        <textarea placeholder = "Enter Text" rows = "75" cols = "112">
+        <textarea placeholder = "Enter Text" rows = "75" cols = "125">
         </textarea>
       </div>
     </div>
 <script src="app.js"></script>
+<script src = "userpage.js"></script>
   </body>
 </html>
