@@ -75,7 +75,7 @@ if (form.uname.value == "RickyRocks" && form.psw.value == "whataguy")
   }
  else if (form.uname.value == "ChuckB" && form.psw.value == "spyguy")
  {
- 	window.open('otheruser.html');
+ 	window.open('otheruser2.html');
  }
  else
  {
