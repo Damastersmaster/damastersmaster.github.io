@@ -27,13 +27,13 @@ width:20%;
   margin-left:5px;
   width:90px;
   height:90px;
-  
+
 }
 #right img
 {
   width:90px;
   height:90px;
-  
+
 }
 .contain {
   position: relative;
@@ -211,12 +211,12 @@ span.psw {
 }
 
 @-webkit-keyframes animatezoom {
-    from {-webkit-transform: scale(0)} 
+    from {-webkit-transform: scale(0)}
     to {-webkit-transform: scale(1)}
 }
-    
+
 @keyframes animatezoom {
-    from {transform: scale(0)} 
+    from {transform: scale(0)}
     to {transform: scale(1)}
 }
 
