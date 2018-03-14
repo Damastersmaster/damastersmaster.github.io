@@ -89,7 +89,7 @@ function Share_Ricky()
 {
 	prompt("Who do you want to share with?");
 	SharedwithChuck = true;
-	localStorage.setItem("SharedwithChuck", SharedwithChuck);
+	sessionStorage.setItem("SharedwithChuck", SharedwithChuck);
 }
 
 var SharedwithRicky = Boolean(false);
@@ -98,7 +98,7 @@ function Share_Chuck()
 {
 	prompt("Who do you want to share with?");
 	SharedwithRicky = true;
-	localStorage.setItem("SharedwithRicky", SharedwithRicky);
+	sessionStorage.setItem("SharedwithRicky", SharedwithRicky);
 }
 
 var CommentChuck = Boolean(false);
@@ -107,7 +107,7 @@ function Add_Comment_Chuck()
 {
 	prompt("Comment:");
 	CommentChuck = true;
-	localStorage.setItem("CommentChuck", CommentChuck);
+	sessionStorage.setItem("CommentChuck", CommentChuck);
 }
 
 var CommentRicky = Boolean(false);
@@ -116,5 +116,5 @@ function Add_Comment_Ricky()
 {
 	prompt("Comment:");
 	CommentRicky = true;
-	localStorage.setItem("CommentChuck", CommentRicky);
+	sessionStorage.setItem("CommentChuck", CommentRicky);
 }

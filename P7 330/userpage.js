@@ -45,7 +45,7 @@ if(form.nbname.value == "CSD 318")
 
 function Notifications() {
   element = document.getElementById("SharedwithRicky");
-  SharedwithRicky = localStorage.getItem("SharedwithRicky");
+  SharedwithRicky = sessionStorage.getItem("SharedwithRicky");
   if(SharedwithRicky) {
     element.style.display= "block";
   }
@@ -53,7 +53,7 @@ function Notifications() {
     element.style.display= "none";
   }
   element = document.getElementById("SharedwithChuck");
-  SharedwithChuck = localStorage.getItem("SharedwithChuck");
+  SharedwithChuck = sessionStorage.getItem("SharedwithChuck");
   if(SharedwithChuck) {
     element.style.display= "block";
   }
@@ -61,7 +61,7 @@ function Notifications() {
     element.style.display= "none";
   }
   element = document.getElementById("CommentChuck");
-  CommentChuck = localStorage.getItem("CommentChuck");
+  CommentChuck = sessionStorage.getItem("CommentChuck");
   if(CommentChuck) {
     element.style.display= "block";
   }
@@ -69,7 +69,7 @@ function Notifications() {
     element.style.display= "none";
   }
   element = document.getElementById("CommentRicky");
-  CommentRicky = localStorage.getItem("CommentRicky");
+  CommentRicky = sessionStorage.getItem("CommentRicky");
   if(CommentRicky) {
     element.style.display= "block";
   }
