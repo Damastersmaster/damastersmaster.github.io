@@ -3,8 +3,7 @@
         <title>My Home Page</title>
         <link rel="stylesheet" type="text/css" href="otheruser.css"/>
     </head>
-      <body onload="Notifications()">
-              <body onload="Notifications()">
+ <body onload="Notifications()">
          <div id = "overdash" class = "overdash">
             <div id = "left" ><a href="#"><img class="avatar" src="cnote.png" alt="logo"></a> </div>
            <div id = "center"><h1>Dashboard<h1></div>
@@ -18,10 +17,11 @@
                   </div>
             </div>
           </div>
+
         </div>
+
         <div id = "entire-container">
           <div id="mySidenav" class="sidenav">
-
           </div>
 
             <div id="id00" class="modal">
@@ -33,7 +33,7 @@
 
                 <div class="container">
                   <label for="class_name"><b>Notebook Name</b></label>
-                  <input type="text" placeholder="Ex. EECS 212" name="nbname" required>
+                  <input type="text" placeholder="Ex. Math 230" name="nbname" required>
                 </div>
                   <div class="container">
                   <button onclick="check2(this.form)" class="submitbtn">Submit</button>
@@ -47,17 +47,17 @@
               <div class="contain2">
                    <a href="othereditor1.html"><img id ="n0" class="avatar" src="notebook201.png" alt="notebook 1"></a>
               </div>
-              <div class="contain">
-                   <img button onclick="document.getElementById('id00').style.display='block'"" style="width:auto;" id ="n0" class="avatar" src="add.png" alt="logo">
-                       <div button onclick="document.getElementById('id00').style.display='block'"" style="width:auto;" class="overlay">
-                       <div class="text">Create a Notebook</div>
-                      </div>
-              </div>
               <div class="contain3">
-                     <img id = "n2" src="add.png" class="avatar" alt="Add a NoteBook">
+                <a href="othereditor2.html"><img id ="n1" class="avatar" src="notebook212.png" alt="notebook 2"></a>
               </div>
               <div class="contain">
-                      <img id ="n3" class="avatar" src="add.png" alt="logo">
+<!--            <a href=""><img id ="n2" class="avatar" src="" alt="notebook 3"></a> -->
+              </div>
+              <div class="contain">
+                <img button onclick="document.getElementById('id00').style.display='block'"" style="width:auto;" id ="n0" class="avatar" src="add.png" alt="logo">
+                 <div button onclick="document.getElementById('id00').style.display='block'"" style="width:auto;" class="overlay">
+                 <div class="text">Create a Notebook</div>
+                </div>
               </div>
               <div class="contain2">
                       <img id ="n4" class="avatar" src="add.png" alt="logo">
@@ -69,13 +69,12 @@
           </div>
 
           <div id="myNotifcations" class="sidenote">
-
             <div id = "notecore" class="note">
             <h2>Notifications</h2>
-            <div id="SharedwithChuck"> Ricky has shared a notebook <br>with you!
+            <div id="SharedwithChuck"> Ricky has shared a notebook <br>with you! </div>
+            <div id="SharedwithRicky"> You have shared a notebook <br>with Ricky!
               <a href="">View Notebook</a>
             </div>
-            <div id="SharedwithRicky"> You have shared a notebook <br>with Ricky! </div>
             <div id="CommentRicky"> Ricky commented on a shared <br>notebook! </div>
             <div id="CommentChuck"> You commented on a shared <br>notebook! </div>
             </div>
