@@ -5,7 +5,7 @@ body {
   line-height: 20px;
   margin: 0;
   padding: 0;
-  background-color:lightgreen;
+  background-color:#FA9A50;
 }
 
 #overdash
@@ -44,20 +44,36 @@ width:20%;
 }
 
 #center {
-  height: 80px;
+  height: 100px;
   display: flex;
   align-items: center;
 }
 
 #center li {
-  display:flex;
   align-items:center;
   padding:20px;
   display:inline;
+  width:100%;
 }
 
-button {
-  height: 35px;
+
+.doc
+{
+  width:60%;
+  margin:0;
+  padding:0;
+}
+.empty
+{
+  width:20%;
+}
+
+#center button {
+  height: 40px;
+}
+
+#center li{
+  padding:10px;
 }
 
 #Add_Comment {
@@ -71,18 +87,26 @@ button {
 .background-ribbon {
   height: 200px;
   display: inline-block;
-}
 
-.text-editor {
-  width: 60%;
-  padding-top: 10px;
+}
+.sidenote
+{
+
+  width:20%;
+}
+.text-editor{
+ padding-top: 10px;
   padding-right: 28px;
   padding-bottom: 60px;
   padding-left: 28px;
-  min-height: 600px;
+  width: 90%;
+  height:100%;
   background: #fff;
   margin: 0 auto;
-  transform: translateY(-150px);
+}
+.text-editor textarea{
+  width:100%;
+  height:95%;
 }
 
 .dropbtn {
@@ -118,4 +142,22 @@ button {
 
 .dropdown a:hover {background-color: #ddd}
 
+
 .show {display:block;}
+
+.sidenote
+{
+  float:left;
+}
+ .doc, .empty
+{
+  float:left;
+}
+.sidenote{
+  float:right;
+}
+
+.sidenote h2{border-bottom:2px solid black;}
+
+.show {display:block;}
+
