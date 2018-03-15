@@ -83,10 +83,12 @@ width:20%;
 #Share_Notebook {
   background-color: #008CBA;
 }
+
 #Background_Button
 {
   background-color: #008CBA;
 }
+
 .background-ribbon {
   height: 200px;
   display: inline-block;
@@ -163,4 +165,3 @@ width:20%;
 .sidenote h2{border-bottom:2px solid black;}
 
 .show {display:block;}
-
