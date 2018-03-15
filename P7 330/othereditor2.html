@@ -36,8 +36,31 @@
     <div class="doc">
 
       <div class="text-editor"><h2 class="class-topic">EECS 212</h2>
-        <textarea placeholder = "Enter Text">
-        </textarea>
+        <textarea placeholder = "Enter Text">Strong Induction
+Base case
+Asuume P(k) is true
+Derive that P(k+1)
+With simple induction you use "if p(k) is true then p(k+1) is true" while in strong induction you use "if p(i) is true for all i less than or equal to k then p(k+1) is true", where p(k) is some statement depending on the positive integer k.
+Theorem: Every natural number n > 1 can be written as a product of primes (with repetition) i.e. power of primes.
+Proof: by strong induction on n. P(k): k can can be factored into primes.
+
+Proof by Mathematical Induction
+This is the primary way we will:
+Proves theorems
+Argue about correctness of programs
+Construct and define objects
+Domino Principle: Line up any number of dominos in a row; know the first one over and over and they will all fall.
+P(k): kth domino falls
+Two Requirements: 
+For all k: P(k) -> P(k+1)
+First domino falls i.e. P1 is true.
+To prove: For all k E N, predicate P(k) is true.
+Two steps:
+Base Case: Establish P(0) is true
+For all k E N: P(k) -> P(k+1)
+The base case is very important!
+
+</textarea>
       </div>
   </div>
        <div class="sidenote">
