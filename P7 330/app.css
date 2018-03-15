@@ -68,12 +68,14 @@ width:20%;
 	width:20%;
 }
 
-button {
-  height: 35px;
+#center button {
+  height: 40px;
 }
 
-
+#center li{
+  padding:10px;
 }
+
 #Add_Comment {
   background-color: #008CBA;
 }
