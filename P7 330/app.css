@@ -39,34 +39,46 @@ width:20%;
   height:100px;
 }
 #center {
-  height: 80px;
+  height: 100px;
   display: flex;
   align-items: center;
 }
 
 #center li {
-  display:flex;
   align-items:center;
   padding:20px;
   display:inline;
+  width:100%;
 }
 
-
-.background-ribbon {
-  height: 200px;
-  display: inline-block;
+.doc
+{
+	width:60%;
+	margin:0;
+	padding:0;
 }
+.empty
+{
+	width:20%;
+}
+.sidenote
+{
 
-.text-editor {
-  width: 60%;
-  padding-top: 10px;
+	width:20%;
+}
+.text-editor{
+ padding-top: 10px;
   padding-right: 28px;
   padding-bottom: 60px;
   padding-left: 28px;
-  min-height: 600px;
+  width: 90%;
+  height:100%;
   background: #fff;
   margin: 0 auto;
-  transform: translateY(-150px);
+}
+.text-editor textarea{
+  width:100%;
+  height:95%;
 }
 
 .dropbtn {
@@ -104,3 +116,17 @@ width:20%;
 
 
 .show {display:block;}
+
+.sidenote
+{
+	float:left;
+}
+ .doc, .empty
+{
+	float:left;
+}
+.sidenote{
+	float:right;
+}
+
+.sidenote h2{border-bottom:2px solid black;}

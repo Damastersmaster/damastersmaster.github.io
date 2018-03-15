@@ -91,16 +91,19 @@ var CommentChuck = Boolean(false);
 
 function Add_Comment_Chuck()
 {
-	prompt("Comment:");
+	var helper = prompt("Comment:");
 	CommentChuck = true;
 	sessionStorage.setItem("CommentChuck", CommentChuck);
+	document.getElementById("SharedwithRicky").innerHTML(helper);
+
 }
 
 var CommentRicky = Boolean(false);
 
 function Add_Comment_Ricky()
 {
-	prompt("Comment:");
-	CommentRicky = true;
-	sessionStorage.setItem("CommentChuck", CommentRicky);
+	var helper = prompt("Comment:");
+	CommentChuck = true;
+	sessionStorage.setItem("CommentChuck", CommentChuck);
+	document.getElementById("SharedwithRicky").innerHTML(helper);
 }
