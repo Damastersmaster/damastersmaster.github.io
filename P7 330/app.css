@@ -66,6 +66,12 @@ width:20%;
 .empty
 {
 	width:20%;
+}
+
+button {
+  height: 35px;
+}
+
 
 }
 #Add_Comment {
@@ -79,6 +85,7 @@ width:20%;
 .background-ribbon {
   height: 200px;
   display: inline-block;
+
 }
 .sidenote
 {
