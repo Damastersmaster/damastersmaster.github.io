@@ -7,20 +7,24 @@ body {
   padding: 0;
   background-color:#FA9A50;
 }
+
 #overdash
 {
   margin-top:15px;
 }
+
 #left
 {
   float:left;
   width:20%;
 }
+
 #center
 {
   float:left;
   width:60%;
 }
+
 #right
 {
   float:left;
@@ -31,13 +35,14 @@ width:20%;
   margin-left:25px;
   width:120px;
   height:120px;
-  
 }
+
 #right img
 {
   width:100px;
   height:100px;
 }
+
 #center {
   height: 100px;
   display: flex;
@@ -51,6 +56,7 @@ width:20%;
   width:100%;
 }
 
+<<<<<<< HEAD
 .doc
 {
 	width:60%;
@@ -60,6 +66,23 @@ width:20%;
 .empty
 {
 	width:20%;
+=======
+button {
+  height: 35px;
+}
+
+#Add_Comment {
+  background-color: #008CBA;
+}
+
+#Share_Notebook {
+  background-color: #008CBA;
+}
+
+.background-ribbon {
+  height: 200px;
+  display: inline-block;
+>>>>>>> 852432b45a12358901a6e50ab6ba9fc9ac35f41e
 }
 .sidenote
 {
@@ -114,6 +137,7 @@ width:20%;
 
 .dropdown a:hover {background-color: #ddd}
 
+<<<<<<< HEAD
 
 .show {display:block;}
 
@@ -130,3 +154,6 @@ width:20%;
 }
 
 .sidenote h2{border-bottom:2px solid black;}
+=======
+.show {display:block;}
+>>>>>>> 852432b45a12358901a6e50ab6ba9fc9ac35f41e

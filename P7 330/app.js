@@ -57,7 +57,7 @@ function login(form)
 {
 if (form.uname.value == "RickyRocks" && form.psw.value == "whataguy")
   {
-    window.open('userpage.html');
+  window.open('userpage.html');
   }
  else if (form.uname.value == "ChuckB" && form.psw.value == "spyguy")
  {
