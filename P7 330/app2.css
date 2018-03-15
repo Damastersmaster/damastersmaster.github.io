@@ -83,7 +83,10 @@ width:20%;
 #Share_Notebook {
   background-color: #008CBA;
 }
-
+#Background_Button
+{
+  background-color: #008CBA;
+}
 .background-ribbon {
   height: 200px;
   display: inline-block;
