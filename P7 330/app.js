@@ -20,12 +20,12 @@ function changeB()
 	}
 	if(backgroundColorCount == 3)
 	{
-		document.body.style.backgroundColor = "#242325";
+		document.body.style.backgroundColor = "#BC8F8F";
 	}
 
 
 }
-var backgroundColorCount2 = 1;
+var backgroundColorCount2 = 0;
 function changeB2()
 {
 	backgroundColorCount2 = backgroundColorCount2 +1;
@@ -47,7 +47,7 @@ function changeB2()
 	}
 	if(backgroundColorCount2 == 3)
 	{
-		document.body.style.backgroundColor = "#272635";
+		document.body.style.backgroundColor = "#3CB371";
 	}
 
 
