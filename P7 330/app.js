@@ -76,6 +76,7 @@ function Share_Ricky()
 	prompt("Who do you want to share with?");
 	SharedwithChuck = true;
 	sessionStorage.setItem("SharedwithChuck", SharedwithChuck);
+	location.reload();
 }
 
 var SharedwithRicky = Boolean(false);
@@ -95,7 +96,6 @@ function Add_Comment_Chuck()
 	CommentChuck = true;
 	sessionStorage.setItem("CommentChuck", CommentChuck);
 	document.getElementById("SharedwithRicky").innerHTML(helper);
-
 }
 
 var CommentRicky = Boolean(false);
@@ -104,6 +104,6 @@ function Add_Comment_Ricky()
 {
 	var helper = prompt("Comment:");
 	CommentChuck = true;
-	sessionStorage.setItem("CommentChuck", CommentChuck);
+	sessionStorage.setItem("CommentRicky", CommentRicky);
 	document.getElementById("SharedwithRicky").innerHTML(helper);
 }
