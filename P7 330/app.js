@@ -75,7 +75,7 @@ function Share_Ricky()
 {
 	prompt("Who do you want to share with?");
 	SharedwithChuck = true;
-	sessionStorage.setItem("SharedwithChuck", SharedwithChuck);
+	localStorage.setItem("SharedwithChuck", SharedwithChuck);
 	location.reload();
 }
 
@@ -85,7 +85,7 @@ function Share_Chuck()
 {
 	prompt("Who do you want to share with?");
 	SharedwithRicky = true;
-	sessionStorage.setItem("SharedwithRicky", SharedwithRicky);
+	localStorage.setItem("SharedwithRicky", SharedwithRicky);
 }
 
 var CommentChuck = Boolean(false);
@@ -94,7 +94,7 @@ function Add_Comment_Chuck()
 {
 	var helper = prompt("Comment:");
 	CommentChuck = true;
-	sessionStorage.setItem("CommentChuck", CommentChuck);
+	localStorage.setItem("CommentChuck", CommentChuck);
 }
 
 var CommentRicky = Boolean(false);
@@ -103,5 +103,9 @@ function Add_Comment_Ricky()
 {
 	var helper = prompt("Comment:");
 	CommentChuck = true;
-	sessionStorage.setItem("CommentRicky", CommentRicky);
+	localStorage.setItem("CommentRicky", CommentRicky);
+}
+
+function Clear() {
+	window.localStorage.clear();
 }
