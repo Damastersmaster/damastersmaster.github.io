@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color:#87959D;
+   font-family: 'Karla', sans-serif;
+    background-color:#f2efe9;
 }
 #overdash
 {
@@ -93,20 +93,22 @@ margin:0px;
 }
 
 .infoBox{
-  background-color: #DC965A;
+  background-color: #bc8f8f;
   height: 30%;
   border: 2px solid #000000;
   line-height: 220%;
   display: block;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .infoBox2{
   margin-top: 8%;
-  background-color: #DC965A;
+  background-color: #bc8f8f;
   height: 40%;
   border: 2px solid #000000;
   line-height: 220%;
   display: block;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .Personal-Information{
@@ -191,3 +193,7 @@ span.psw {
 
 
 .show {display:block;}
+
+h2 {
+   font-family: 'Karla', sans-serif;
+}
