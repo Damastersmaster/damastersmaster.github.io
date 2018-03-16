@@ -24,7 +24,7 @@ function changeB()
 	}
 	if(backgroundColorCount == 4)
 	{
-		document.body.style.backgroundColor = "#C08497";
+		document.body.style.backgroundColor = "#A18276";
 	}
 	if(backgroundColorCount == 5)
 	{
