@@ -95,7 +95,6 @@ function Add_Comment_Chuck()
 	var helper = prompt("Comment:");
 	CommentChuck = true;
 	sessionStorage.setItem("CommentChuck", CommentChuck);
-	document.getElementById("SharedwithRicky").innerHTML(helper);
 }
 
 var CommentRicky = Boolean(false);
@@ -105,5 +104,4 @@ function Add_Comment_Ricky()
 	var helper = prompt("Comment:");
 	CommentChuck = true;
 	sessionStorage.setItem("CommentRicky", CommentRicky);
-	document.getElementById("SharedwithRicky").innerHTML(helper);
 }
