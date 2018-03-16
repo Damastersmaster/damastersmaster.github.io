@@ -11,7 +11,7 @@ body {
 #overdash
 {
   margin-top:15px;
-font-family: 'Montserrat', sans-serif, 20px;
+
 }
 
 #left
@@ -101,9 +101,7 @@ width:20%;
 	width:20%;
 }
 
-.sidenotetext {
-	  font-family: 'Montserrat', sans-serif;
-}
+
 
 .text-editor{
  padding-top: 10px;
