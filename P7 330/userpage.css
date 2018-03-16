@@ -62,7 +62,7 @@ button:hover {
   width: 270px;
   opacity: 0;
   transition: .5s ease;
-  background-color: #9a7676;
+  background-color: #bc8f8f;
 }
 
 .contain:hover .overlay {
