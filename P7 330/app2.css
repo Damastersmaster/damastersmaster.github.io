@@ -11,7 +11,11 @@ body {
 #overdash
 {
   margin-top:15px;
-    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.buttontext {
+  font-family: 'Montserrat', sans-serif;
 }
 
 #left
