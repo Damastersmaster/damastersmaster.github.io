@@ -23,7 +23,7 @@ function check(form)
 {
 if(form.nbname.value == "Math 230")
   {
-    window.open('userpage1.html')
+    window.location.href=('userpage1.html')
   }
  else
  {
@@ -35,7 +35,7 @@ function check2(form)
 {
 if(form.nbname.value == "CSD 318")
   {
-    window.open('userpage2.html')
+    window.location.href=('userpage2.html')
   }
  else
  {
