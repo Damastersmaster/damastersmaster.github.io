@@ -8,15 +8,14 @@ body {
   background-color:#BC8F8F;
 }
 
-.buttontext {
-	font-family: 'Montserrat', sans-serif;
-}
-
 #overdash
 {
   margin-top:15px;
 }
 
+.buttontext {
+  font-family: 'Montserrat', sans-serif;
+}
 
 #left
 {
