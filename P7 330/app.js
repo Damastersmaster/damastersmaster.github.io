@@ -28,7 +28,7 @@ function changeB()
 	}
 	if(backgroundColorCount == 5)
 	{
-		document.body.style.backgroundColor = "#FCDEBE";
+		document.body.style.backgroundColor = "#DDC3A6";
 	}
 
 
