@@ -125,9 +125,12 @@ margin:8px;
 }
 
 .sidenote {
-    font-family: 'Montserrat', sans-serif;
     height: 100%;
 
+}
+
+.sidenotetext {
+     font-family: 'Montserrat', sans-serif;
 }
 
 .contain{float:left;padding:15px;}
