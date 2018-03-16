@@ -43,7 +43,7 @@ function changeB2()
 	}
 	if (backgroundColorCount2 == 0)
 	{
-		document.body.style.backgroundColor = "#E8E9F3";
+		document.body.style.backgroundColor = "#CECECE";
 	}
 	if(backgroundColorCount2 == 1)
 	{
@@ -51,7 +51,7 @@ function changeB2()
 	}
 	if(backgroundColorCount2 == 2)
 	{
-		document.body.style.backgroundColor = "#CECECE";
+		document.body.style.backgroundColor = "#92B4A7";
 	}
 	if(backgroundColorCount2 == 3)
 	{
