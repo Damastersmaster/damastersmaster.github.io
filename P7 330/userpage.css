@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Karla', sans-serif;
     background-color:#f2efe9;
 }
 #overdash
@@ -125,7 +125,7 @@ margin:8px;
 }
 
 .sidenote {
- 
+    font-family: 'Montserrat', sans-serif;
     height: 100%;
 
 }
