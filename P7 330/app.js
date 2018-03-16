@@ -2,7 +2,7 @@ var backgroundColorCount = 0;
 function changeB()
 {
 	backgroundColorCount = backgroundColorCount +1;
-	if(backgroundColorCount > 5)
+	if(backgroundColorCount > 4)
 	{
 		backgroundColorCount = 0;
 	}
@@ -12,21 +12,17 @@ function changeB()
 	}
 	if(backgroundColorCount == 1)
 	{
-		document.body.style.backgroundColor = "#C2B2B4";
+		document.body.style.backgroundColor = "#BBB891";
 	}
 	if(backgroundColorCount == 2)
 	{
-		document.body.style.backgroundColor = "#BBB891";
+		document.body.style.backgroundColor = "#BC8F8F";
 	}
 	if(backgroundColorCount == 3)
 	{
-		document.body.style.backgroundColor = "#BC8F8F";
-	}
-	if(backgroundColorCount == 4)
-	{
 		document.body.style.backgroundColor = "#A18276";
 	}
-	if(backgroundColorCount == 5)
+	if(backgroundColorCount == 4)
 	{
 		document.body.style.backgroundColor = "#DDC3A6";
 	}
@@ -37,7 +33,7 @@ var backgroundColorCount2 = 0;
 function changeB2()
 {
 	backgroundColorCount2 = backgroundColorCount2 +1;
-	if(backgroundColorCount2 > 5)
+	if(backgroundColorCount2 > 4)
 	{
 		backgroundColorCount2 = 0;
 	}
@@ -55,13 +51,9 @@ function changeB2()
 	}
 	if(backgroundColorCount2 == 3)
 	{
-		document.body.style.backgroundColor = "#9D9C62";
-	}
-	if(backgroundColorCount2 == 4)
-	{
 		document.body.style.backgroundColor = "#A3B9C9";
 	}
-	if(backgroundColorCount2 == 5)
+	if(backgroundColorCount2 == 4)
 	{
 		document.body.style.backgroundColor = "#BE92A2";
 	}
