@@ -8,6 +8,10 @@ body {
   background-color:#BC8F8F;
 }
 
+.buttontext {
+	font-family: 'Times New Roman', sans-serif;
+}
+
 #overdash
 {
   margin-top:15px;
