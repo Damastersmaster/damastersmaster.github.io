@@ -57,11 +57,11 @@ function login(form)
 {
 if (form.uname.value == "RickyRocks" && form.psw.value == "whataguy")
   {
-  window.open('userpage.html');
+  window.location.href=('userpage.html');
   }
  else if (form.uname.value == "ChuckB" && form.psw.value == "spyguy")
  {
- 	window.open('otheruser2.html');
+ 	window.location.href=('otheruser2.html');
  }
  else
  {

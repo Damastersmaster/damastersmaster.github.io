@@ -23,7 +23,7 @@ function check(form)
 {
 if(form.nbname.value == "Psych 201")
   {
-    window.open('otheruser1.html')
+    window.location.href=('otheruser1.html')
   }
  else
  {
@@ -35,7 +35,7 @@ function check2(form)
 {
 if(form.nbname.value == "EECS 212")
   {
-    window.open('otheruser2.html')
+    window.location.href=('otheruser2.html')
   }
  else
  {
